@@ -4,7 +4,7 @@ This is a WAVL Tree implementation that was a project for the course "Data Struc
 #### Wikipedia Definition of WAVL Tree:
   A WAVL tree or weak AVL tree is a self-balancing binary search tree. Like other balanced binary search trees, WAVL trees can handle insertion, deletion, and search operations in time O(log n) per operation.
   What distinguishes WAVL trees from other types of binary search tree is its use of ranks. These are numbers, stored with each node, that provide an approximation to the distance from the node to its farthest leaf descendant. The ranks are required to obey the following properties:
-  - Every external node has rank 0[5]
+  - Every external node has rank 0.
   - If a non-root node has rank r, then the rank of its parent must be either r + 1 or r + 2.
   - An internal node with two external children must have rank exactly 1. 
   
